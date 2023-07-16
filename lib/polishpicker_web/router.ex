@@ -18,6 +18,8 @@ defmodule PolishpickerWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    live("/manicures", ManicuresLive)
   end
 
   # Other scopes may use custom stacks.

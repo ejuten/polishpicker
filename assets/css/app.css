@@ -3,3 +3,11 @@
 @import "tailwindcss/utilities";
 
 /* This file is for your main application CSS */
+
+.manicures {
+  @apply my-10 grid gap-6 grid-cols-2 md:grid-cols-3;
+}
+
+.manicure {
+  @apply max-w-sm rounded bg-white overflow-hidden shadow-lg;
+}
