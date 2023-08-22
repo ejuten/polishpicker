@@ -4,6 +4,19 @@
 
 /* This file is for your main application CSS */
 
+main {
+  @apply max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8;
+}
+
+h1 {
+  @apply text-center text-slate-900 font-extrabold text-3xl;
+}
+
+li {
+  @apply text-center text-slate-800 font-bold text-xl;
+}
+
+
 .manicures {
   @apply my-10 grid gap-6 grid-cols-2 md:grid-cols-3;
 }
